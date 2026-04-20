@@ -1,0 +1,28 @@
+h1 {
+  color: navy;
+  font-size: 30px;
+  font-weight: bold;
+}
+.second-heading {
+  color: red;
+  font-size: 24px;
+}
+
+.best {
+  color: green;
+  font-size: 20px;
+}
+
+#first {
+  color: green;
+  font-size: 25px;
+}
+
+#second {
+  color: blue;
+  font-size: 20px;
+}
+#third {
+  color: red;
+  font-size: 15px
+}
