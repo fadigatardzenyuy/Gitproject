@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic html</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>MapLibre</h1>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Jobs</a>
+      <a href="#">Roadmap</a>
+    </nav>
+  </header>
+
+  <!-- Main Content-->
+  <main>
+    <article>
+      <h2>Semantic HTML</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates possimus, quis architecto fuga dignissimos
+        libero mollitia culpa eum, minus perspiciatis reprehenderit esse excepturi tenetur officia accusamus aliquid,
+        amet accusantium quam.</p>
+    </article>
+
+    <aside>
+      <p>Related links</p>
+    </aside>
+
+    <table border="2" cellpadding="10">
+      <caption>Laliga Table Standings</caption>
+      <thead>
+        <tr>
+          <th>League</th>
+          <th>Points</th>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Draws</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Barcelona</td>
+          <td>82</td>
+          <td>26</td>
+          <td>8</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Real Madrid</td>
+          <td>80</td>
+          <td>25</td>
+          <td>7</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form action="/submit" method="post">
+      <label for="username">User Name</label>
+      <input type="text" name="username" id="username" placeholder="Chefor Josiah">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="chefor@example.com">
+      <label for="phone">Phone Number</label>
+      <input type="tel" name="phone" id="phone" placeholder="+237 123 456 789" value="+237 ">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="password">
+      <label for="confirm_password">Confirm Password</label>
+      <input type="password" name="confirm_password" id="confirm_password" placeholder="confirm password">
+      <label for="date-of-birth">Date of Birth</label>
+      <input type="date" name="date-of-birth" id="date-of-birth">
+      <input type="submit" value="Submit-form">
+    </form>
+
+    <form action="/register" method="post">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="fname">First Name</label>
+        <input type="text" name="first-name" id="fname" required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="last-name" id="lname" required>
+
+        <label for="date">Date of Birth</label>
+        <input type="date" name="date-of-birth" id="date">
+      </fieldset>
+
+      <fieldset>
+        <legend>Account Details</legend>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required minlength="8">
+      </fieldset>
+
+      <button type="submit">Create Account</button>
+      
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Copyright 2026</p>
+  </footer>
+
+</body>
+
+</html>

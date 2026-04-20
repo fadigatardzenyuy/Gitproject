@@ -1,0 +1,22 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+form {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 20px;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: green;
+  color: #ffffff;;
+}
+
+.submit-button:hover {
+  background-color: darkgreen;
+}
