@@ -1,0 +1,46 @@
+/* applying google font */
+body {
+    font-family:'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    padding:20px
+}
+/* form styling */
+form {
+    background-color: #ffffff;
+    padding:20px;
+    border-radius:8px;
+    max-width:400px;
+    margin:auto;
+    box-shadow:0 0 10pxrgba(0,0,0,0.1);
+}
+  /*labels*/
+  label {
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+  }
+  /* input fields */
+  input,select,textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid#ccc;
+    border-radius:4px;
+  }
+  /* submit button */
+  button{
+    width:100%;
+    padding:12px;
+    background-color:#007BFF;
+    color:white;
+    border:none;
+    border-radius:4px;
+    font-size:16px;
+    cursor:pointer;
+  }
+  /* hover effect for button */
+
+  button:hover{
+    background-color:#0056b3;
+  }
+

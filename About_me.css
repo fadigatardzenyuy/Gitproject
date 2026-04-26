@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    padding: 20px;
+}
+
+h1,h2{
+    margin-bottom: 10px;
+}
+
+nav a{
+    padding: 10px;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+h1{
+    color:darkblue;
+}
+h2{
+    color:darkblue;
+}
